@@ -1,0 +1,9 @@
+class HashTable {
+public:
+    HashTable(int size);
+    void set(string key, int value);
+    int get(string key);
+    void remove(string key);
+private:
+    int _hash(string key);
+};
